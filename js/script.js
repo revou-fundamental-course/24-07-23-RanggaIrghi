@@ -1,0 +1,26 @@
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 4000);
+}
+
+function validateForm() {
+  const name = document.forms["formContact"]["name"].value;
+  const email = document.forms["formContact"]["email"].value;
+  const option = document.forms["formContact"]["optionSelect"].value;
+
+  if (name == "" || email == "" || option == "0") {
+    alert("Tidak boleh ada yang kosong");
+  }
+}

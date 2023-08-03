@@ -1,0 +1,316 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wanderlust Expeditions</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="header-nav" id="header-navbar">
+        <a href="" class="navbar-logo"><span>Wanderlust</span> Expeditions</a>
+        <nav class="navbar" id="nav">
+          <a href="#home" class="navbar-link">Home</a>
+          <a href="#ourpackage" class="navbar-link">Our Package</a>
+          <a href="#contact" class="navbar-link">Call Us</a>
+        </nav>
+      </section>
+      <section class="header-title">
+        <h1 class="title">Your Trusted Travel Agent's</h1>
+        <h4 class="sub-title">Your happiness is our hapiness</h4>
+      </section>
+    </header>
+    <main id="home">
+      <section class="article-container">
+        <article class="article-content">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img
+                class="img-slide"
+                src="assets/jeremy-bishop-QUwLZNchflk-unsplash.jpg"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                class="img-slide"
+                src="assets/joshua-earle-8MbdD0pHXGY-unsplash.jpg"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                class="img-slide"
+                src="assets/kalen-emsley-7bwQXzbF6KE-unsplash.jpg"
+              />
+            </div>
+          </div>
+          <div class="rate">
+            <div class="comment">
+              <p>
+                <i
+                  >"Liburan jadi menyenangkan bersama Wanderlust Expeditions"</i
+                >
+              </p>
+            </div>
+            <div class="profile">
+              <img
+                class="image"
+                src="assets/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+                alt=""
+              />
+              <div class="descriptions">
+                <h4>Florence Hughes</h4>
+                <p><i>Ibu Rumah Tangga, 28</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="feature-container">
+            <p>
+              Selamat datang di Wanderlust Expeditions, mitra perjalanan
+              terpercaya Anda untuk petualangan tak terlupakan di seluruh dunia!
+              Mengapa memilih kami? Pertama, kami menawarkan paket liburan
+              kustom yang disesuaikan dengan preferensi dan anggaran Anda,
+              memastikan pengalaman yang unik dan personal. Kedua, tim ahli kami
+              memiliki pengetahuan mendalam tentang destinasi yang menakjubkan,
+              siap memberikan rekomendasi terbaik untuk tujuan impian Anda.
+            </p>
+            <ol>
+              <li>
+                <span>Paket Liburan Kustom:</span> Nikmati kebebasan untuk
+                merancang perjalanan impian Anda. Dengan paket liburan kustom
+                dari kami, Anda dapat memilih destinasi, aktivitas, dan
+                akomodasi sesuai keinginan, menciptakan pengalaman pribadi yang
+                tak terlupakan.
+              </li>
+              <li>
+                <span>Ahli Destinasi Berpengalaman:</span> Dipandu oleh tim ahli
+                kami yang berpengetahuan luas tentang destinasi, Anda akan
+                diberikan wawasan mendalam tentang tempat-tempat yang
+                menakjubkan. Dapatkan rekomendasi unik dan panduan terbaik untuk
+                menjelajahi dunia dengan percaya diri.
+              </li>
+              <li>
+                <span>Dukungan 24/7:</span> Kami hadir untuk Anda kapan pun Anda
+                membutuhkan bantuan. Dengan layanan pelanggan 24/7, Anda dapat
+                merasa tenang selama perjalanan, karena kami siap membantu
+                mengatasi segala tantangan yang mungkin timbul.
+              </li>
+              <li>
+                <span>Promo dan Diskon Eksklusif:</span> Bersama kami,
+                manfaatkan penawaran istimewa dan diskon eksklusif untuk
+                destinasi populer dan perjalanan berikutnya. Hemat biaya dan
+                dapatkan nilai lebih dari setiap petualangan Anda dengan
+                penawaran menarik yang hanya tersedia melalui travel agent kami.
+              </li>
+            </ol>
+          </div>
+        </article>
+        <section class="form-group">
+          <div class="form-content">
+            <h2 class="form-title">Contact Us</h2>
+            <p class="form-descriptions">
+              Sales akan menghubungi anda 1x24 Jam setelah data kami terima.
+            </p>
+            <form
+              name="formContact"
+              id="form"
+              class="form"
+              action=""
+              onsubmit="return validateForm()"
+            >
+              <div class="form-input">
+                <label class="label" for="name">Your Name:</label>
+                <input
+                  class="input"
+                  name="name"
+                  id="name"
+                  type="text"
+                  placeholder="First and last name"
+                />
+              </div>
+              <div class="form-input">
+                <label class="label" for="name">Email Address:</label>
+                <input
+                  class="input"
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="example@gmail.com"
+                />
+                <small class="text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-input">
+                <label class="label" for="name"
+                  >What are you interested in:</label
+                >
+                <select class="input" name="optionSelect" id="optionSelect">
+                  <option value="0">Select option:</option>
+                  <option value="1">Bali</option>
+                  <option value="2">Yogyakarta</option>
+                  <option value="3">Raja Ampat Islands</option>
+                  <option value="4">Maluk Beach</option>
+                  <option value="5">Bandung</option>
+                  <option value="6">Flores Island</option>
+                  <option value="7">Toraja Land</option>
+                  <option value="8">Komodo National Park</option>
+                </select>
+              </div>
+              <div class="submit-btn">
+                <button class="btn">SEND</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </section>
+      <div id="ourpackage" class="package">
+        <div class="package-title">
+          <h2>Our Package</h2>
+        </div>
+      </div>
+      <section class="section-package">
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Bali</h4>
+              <p class="card-descriptions">
+                Terbanglah ke Bali, surga tropis yang menakjubkan, di mana
+                pantai berpasir putih yang indah bertemu dengan budaya yang kaya
+                dan alam yang menaklukkan. Rasakan pesona matahari terbenam yang
+                menawan, ombak yang menggoda para peselancar, dan kuil-kuil
+                kuno. Sambutlah petualangan tak terlupakan Anda di Bali dengan
+                layanan unggulan dari travel agent kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Bandung</h4>
+              <p class="card-descriptions">
+                Jelajahi Bandung, kota yang memikat dengan harmoni antara pesona
+                alam pegunungan, keramahan penduduk, dan keragaman budaya.
+                Nikmati sejuknya udara pegunungan, eksplorasi kuliner unik,
+                serta pesona keindahan alam dan seni yang tak terlupakan.
+                Temukan Bandung melalui layanan unggulan travel agent kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Flores Island</h4>
+              <p class="card-descriptions">
+                Flores Island, surga tersembunyi di Indonesia dengan pantai
+                eksotis, danau vulkanik, serta desa-desa tradisional yang
+                memesona. Nikmati keindahan alam yang belum tersentuh, air
+                terjun menakjubkan, dan keunikan budaya. Temukan keajaiban alami
+                Flores Island melalui layanan unggulan travel agent kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Yogyakarta</h4>
+              <p class="card-descriptions">
+                Yogyakarta, tempat magis di Indonesia yang memukau dengan
+                kekayaan sejarah, seni, dan budaya. Explore candi kuno yang
+                memukau, keindahan alam yang memesona, serta keramahan penduduk
+                yang memanjakan. Rasakan pesona istimewa Yogyakarta melalui
+                layanan unggulan travel agent kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Raja Ampat Islands</h4>
+              <p class="card-descriptions">
+                Raja Ampat, surganya bawah laut yang memukau dengan terumbu
+                karang warna-warni, keanekaragaman hayati laut yang luar biasa,
+                dan air jernih yang menakjubkan. Temukan keajaiban bawah laut
+                dan pesona alam Raja Ampat melalui layanan unggulan travel agent
+                kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Maluk Beach</h4>
+              <p class="card-descriptions">
+                Pantai Maluk, permata tersembunyi di Indonesia Timur yang
+                menawan dengan pasir putih, air laut biru jernih, dan ombak yang
+                menggoda. Nikmati ketenangan pantai yang indah, snorkeling
+                spektakuler, dan panorama matahari terbenam yang memukau.
+                Temukan surga pantai di Maluk melalui layanan unggulan travel
+                agent kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Toraja Land</h4>
+              <p class="card-descriptions">
+                Toraja Land, destinasi budaya yang memukau di Sulawesi,
+                menghadirkan ritual adat unik, rumah adat megah, dan pemandangan
+                alam yang menakjubkan. Jelajahi kehidupan tradisional, keindahan
+                sawah terasering, dan perayaan unik. Temukan pesona budaya
+                Toraja Land melalui layanan unggulan travel agent kami.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h4 class="card-title">Komodo National Park</h4>
+              <p class="card-descriptions">
+                Komodo National Park, negeri naga purba yang memukau dengan
+                keindahan pulau-pulau tropis, pantai berpasir merah, dan alam
+                bawah laut yang menakjubkan. Saksikan kadal komodo raksasa dan
+                keanekaragaman hayati unik. Temukan keajaiban alam Komodo
+                melalui layanan unggulan travel agent kami.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-container">
+        <div class="footer">
+          <h2>Eksplorasi Tak Terlupakan.</h2>
+          <p class="footer-descriptions">
+            Jadikan setiap perjalanan Anda sebuah petualangan tak terlupakan.
+            Dengan layanan unggulan dari kami, Anda akan menemukan dunia dalam
+            cara yang baru. Percayakan rencana liburan Anda kepada kami, dan
+            kami akan mengatur setiap detail sehingga Anda dapat menikmati momen
+            penuh makna. Temukan keajaiban dunia melalui mata dan hati yang baru
+            bersama travel agent kami.
+          </p>
+          <div class="btn-call">
+            <a href="#home" id="contact">CONTACT US</a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <h2>Wanderlust Expeditions</h2>
+          <p class="text-muted"><span>Term of Service Privacy Policy</span></p>
+          <p class="text-muted">
+            <span>&copy;2023 Wanderlust Expeditions</span>
+          </p>
+        </div>
+      </section>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
